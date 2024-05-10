@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Content from "../components/Content";
 import Footer1 from "../components/Footer1";
 import Footer2 from "../components/Footer2";
+import Modal from "../components/Modal";
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <Content />
         <Footer1 />
         <Footer2 />
+        {/* <Modal /> */}
         <h1>Schedule Callback</h1>
       </div>
     </>
